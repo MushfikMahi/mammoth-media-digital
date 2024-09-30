@@ -60,6 +60,7 @@ const testimony = [
     title: "CEO, NXTWAY & ANIMAGIC",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
   {
     image: "/artist-white.png",
@@ -67,6 +68,7 @@ const testimony = [
     title: "Senior Marketing Analyst, GROW by SAVVY",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
   {
     image: "/artist-white.png",
@@ -74,6 +76,7 @@ const testimony = [
     title: "Senior Marketing, NXTWAY & ANIMAGIC",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
   {
     image: "/artist-white.png",
@@ -81,6 +84,7 @@ const testimony = [
     title: "CEO, NXTWAY & ANIMAGIC",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
   {
     image: "/artist-white.png",
@@ -88,6 +92,7 @@ const testimony = [
     title: "Founder, PLEXUS FOR YOUTH",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
   {
     image: "/artist-white.png",
@@ -95,6 +100,7 @@ const testimony = [
     title: "CEO, NXTWAY & ANIMAGIC",
     comment:
       "The turnover rate is very quick and the support has been amazing.Really looking forward to our next project.",
+    video: "",
   },
 ];
 export default Testimony;

@@ -13,5 +13,20 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        mammothTheme: {
+          primary: "#99aa5e",
+          secondary: "#fffbe6",
+          // accent: "#99aa5e",
+          // neutral: "#",
+          // "base-100": "#ffffff",
+        },
+      },
+      "dark",
+      "cupcake",
+    ],
+  },
 };

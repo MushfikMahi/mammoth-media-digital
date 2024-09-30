@@ -1,0 +1,21 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange !important;
+}
+
+/* Custom styling for Next and Prev arrows */
+.slick-prev,
+.slick-next {
+  width: 50px; /* Increase width */
+  height: 50px; /* Increase height */
+  z-index: 1; /* Ensure it is above other elements */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px; /* Increase the arrow icon size */
+  color: rgb(137, 167, 119); /* Change arrow color if needed */
+}

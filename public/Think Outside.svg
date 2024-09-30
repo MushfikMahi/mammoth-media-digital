@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.07 220">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fffbe6;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        font-size: 12.43px;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: #fffbe6;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-9 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+      }
+
+      .cls-9, .cls-8 {
+        font-size: 18.88px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        stroke-width: .75px;
+      }
+
+      .cls-11 {
+        fill: #99aa5e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-2" x="113.3" y="101.24" width="100.59" height="100.59"/>
+        <line class="cls-2" x1="146.83" y1="201.83" x2="146.83" y2="101.24"/>
+        <line class="cls-2" x1="180.36" y1="101.24" x2="180.36" y2="201.83"/>
+        <line class="cls-2" x1="213.89" y1="168.3" x2="113.3" y2="168.3"/>
+        <line class="cls-2" x1="113.3" y1="134.77" x2="213.89" y2="134.77"/>
+      </g>
+      <g>
+        <path class="cls-11" d="M19.4,23.5h-4.96v-5.22h15.61v5.22h-4.96v14.75h-5.7v-14.75Z"/>
+        <path class="cls-11" d="M45.96,29.34v8.9h-5.46v-7.79c0-1.94-.63-2.68-1.62-2.68-1.11,0-2.05,.83-2.05,3.14v7.33h-5.46V17.08h5.46v6.82c1.01-1.03,2.3-1.54,3.72-1.54,3.05,0,5.41,2.08,5.41,6.99Z"/>
+        <path class="cls-11" d="M49.11,18.28c0-1.1,.76-1.94,1.95-1.94s1.95,.78,1.95,1.88c0,1.17-.76,2.01-1.95,2.01s-1.95-.85-1.95-1.94Zm-.78,4.36h5.46v15.6h-5.46v-15.6Zm-5.31-9.49c0-1.64,1.14-2.91,2.92-2.91s2.91,1.16,2.91,2.81c0,1.75-1.14,3.01-2.91,3.01s-2.92-1.26-2.92-2.91Zm-10.25-7.86c0-2.99,2.06-5.29,5.3-5.29s5.3,2.12,5.3,5.1c0,3.17-2.06,5.47-5.3,5.47s-5.3-2.3-5.3-5.29Z"/>
+        <path class="cls-11" d="M70.81,29.34v8.9h-5.46v-7.79c0-1.94-.63-2.68-1.62-2.68-1.11,0-2.05,.83-2.05,3.14v7.33h-5.46v-15.6h5.2v1.54c1.04-1.23,2.44-1.83,3.99-1.83,3.05,0,5.41,2.08,5.41,6.99Z"/>
+        <path class="cls-11" d="M79.51,33.45l-.87,1.11v3.68h-5.46V17.08h5.46v10.1l3.79-4.54h6.45l-5.46,6.76,5.9,8.84h-6.6l-3.21-4.79Z"/>
+      </g>
+      <text class="cls-8" transform="translate(0 55.78)"><tspan x="0" y="0">Outside The</tspan></text>
+      <text class="cls-9" transform="translate(122.2 56.88)"><tspan class="cls-7"><tspan x="0" y="0">B</tspan></tspan><tspan class="cls-11"><tspan x="0" y="18.88">O</tspan></tspan><tspan class="cls-7"><tspan x="0" y="37.76">X</tspan></tspan></text>
+      <text class="cls-9" transform="translate(122.24 123.88)"><tspan class="cls-7"><tspan x="0" y="0">X</tspan></tspan><tspan class="cls-7"><tspan x="0" y="33.15">X</tspan></tspan><tspan class="cls-11"><tspan x="0" y="66.29">O</tspan></tspan></text>
+      <text class="cls-9" transform="translate(156.87 123.88)"><tspan class="cls-11"><tspan x="0" y="0">O</tspan></tspan><tspan class="cls-11"><tspan x="0" y="33.15">O</tspan></tspan><tspan class="cls-7"><tspan x="0" y="66.29">X</tspan></tspan></text>
+      <text class="cls-9" transform="translate(190.22 123.88)"><tspan class="cls-7"><tspan x="0" y="0">X</tspan></tspan><tspan class="cls-11"><tspan x="0" y="33.15">O</tspan></tspan><tspan class="cls-11"><tspan x="0" y="66.29">O</tspan></tspan></text>
+      <line class="cls-3" x1="129.13" y1="87.96" x2="129.13" y2="150.19"/>
+      <text class="cls-6" transform="translate(147.21 216.74)"><tspan x="0" y="0">Be C</tspan><tspan class="cls-5" x="29.07" y="0">r</tspan><tspan class="cls-1" x="33.9" y="0">e</tspan><tspan class="cls-4" x="41.22" y="0">ati</tspan><tspan class="cls-10" x="56.94" y="0">v</tspan><tspan x="63.49" y="0">e</tspan></text>
+      <circle class="cls-7" cx="218.46" cy="215.82" r=".83"/>
+      <circle class="cls-7" cx="220.8" cy="213.48" r="1.54"/>
+      <circle class="cls-7" cx="224.52" cy="209.77" r="2.55"/>
+    </g>
+  </g>
+</svg>

@@ -33,7 +33,7 @@ const Faq = () => {
 const data = [
   {
     title: "What Are Your Services?",
-    ans: "deskuhflikdshflh",
+    ans: "We have a huge range of Digital Marketing Services.",
   },
   {
     title: " Do You Offer Revisions?",

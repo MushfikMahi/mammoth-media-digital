@@ -32,32 +32,40 @@ const Faq = () => {
 
 const data = [
   {
-    title: "What Are Your Services?",
-    ans: "We have a huge range of Digital Marketing Services.",
+    title: "How do you determine the pricing for your services?",
+    ans: "We allocate budgets based on the specific services required and the complexity of your project after detailed discussion. Our pricing model is transparent and tailored to meet your individual needs.",
   },
   {
-    title: " Do You Offer Revisions?",
-    ans: "",
+    title: "How long does it take to improve my website's ranking in Google?",
+    ans: "SEO is a long-term process. While we cannot guarantee a specific timeline, we guarantee that we will improve your search visibility over time through strategic optimization techniques.",
   },
   {
-    title: "Why Wouldn’t I Hire A Freelancer?",
-    ans: "",
+    title: "How can you help me gain followers on my social media platforms?",
+    ans: "We focus on building genuine and engaged followers who are interested in your brand or company. Our social media marketing strategies involve creating high-quality content, running targeted campaigns, and leveraging social media analytics to optimize your reach.",
   },
   {
-    title: " When Can I get My Project Delivered?",
-    ans: "",
+    title: "When can you start working on my project?",
+    ans: "Our on-boarding process typically takes 2-3 days, during which we gather essential information about your business and establish clear expectations. Once we agree on the scope of work and budget, we can begin implementing your digital marketing strategy.",
   },
   {
-    title: "When Will I Experience Growth?",
-    ans: "",
+    title: "Do you offer any discounts or promotions?",
+    ans: "Usually, we don’t offer discounts. But if you commit to a 3-6 month contract, you can receive a discount of up to 10-15%.",
   },
   {
-    title: "Do You Offer Trials?",
-    ans: "",
+    title: "How do you measure the success of your digital marketing campaigns?",
+    ans: "We use a variety of metrics to track the performance of your campaigns, including website traffic, conversions, social media engagement, and return on investment (ROI).",
   },
   {
-    title: "Do You Offer Any Guarantees?",
-    ans: "",
+    title: "Can you help me create a social media presence from scratch?",
+    ans: "Absolutely! We can help you establish a strong social media presence on platforms that align with your target audience.",
+  },
+    {
+    title: "What is your approach to content marketing?",
+    ans: "Our content marketing strategy focuses on creating high-quality, informative, and engaging content that resonates with your target audience. We tailor our content to meet your specific goals and optimize it for search engines.",
+  },
+  {
+    title: "How much followers do you guarantee?",
+    ans: "While we cannot guarantee a specific number of followers, we prioritize quality over quantity. Our focus is on attracting genuine and engaged followers who are interested in your brand or company. By implementing effective social media strategies, we aim to increase your following over time and convert these followers into qualified leads.",
   },
 ];
 

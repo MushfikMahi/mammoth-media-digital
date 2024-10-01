@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <section className="flex my-20" id="#faq">
+    <div className="flex my-20">
       <div className="w-1/3">
         <h2 className="text-6xl font-bold">Have Questions?</h2>
         <p className="text-xl pt-10 pb-5"> Do you have more questions?</p>
@@ -26,7 +26,7 @@ const Faq = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
@@ -52,14 +52,15 @@ const data = [
     ans: "Usually, we don’t offer discounts. But if you commit to a 3-6 month contract, you can receive a discount of up to 10-15%.",
   },
   {
-    title: "How do you measure the success of your digital marketing campaigns?",
+    title:
+      "How do you measure the success of your digital marketing campaigns?",
     ans: "We use a variety of metrics to track the performance of your campaigns, including website traffic, conversions, social media engagement, and return on investment (ROI).",
   },
   {
     title: "Can you help me create a social media presence from scratch?",
     ans: "Absolutely! We can help you establish a strong social media presence on platforms that align with your target audience.",
   },
-    {
+  {
     title: "What is your approach to content marketing?",
     ans: "Our content marketing strategy focuses on creating high-quality, informative, and engaging content that resonates with your target audience. We tailor our content to meet your specific goals and optimize it for search engines.",
   },

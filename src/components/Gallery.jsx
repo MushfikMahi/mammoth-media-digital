@@ -24,7 +24,7 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <section className="my-20" id="#projects">
+    <div className="my-20">
       <h1 className="text-center text-6xl font-bold text-primary my-10">
         OUR MASTERPIECES
       </h1>
@@ -81,7 +81,7 @@ const Gallery = () => {
           )}
         </div>
       </dialog>
-    </section>
+    </div>
   );
 };
 

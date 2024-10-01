@@ -4,13 +4,6 @@ import React from "react";
 import { CiFacebook, CiInstagram, CiYoutube } from "react-icons/ci";
 
 const Navbar = () => {
-  // const section1Ref = useRef(null);
-  // const section2Ref = useRef(null);
-  // const section3Ref = useRef(null);
-
-  const scrollToSection = (sectionRef) => {
-    sectionRef.current.scrollIntoView({ behavior: "smooth" });
-  };
   const navlinks = [
     {
       title: "Projects",

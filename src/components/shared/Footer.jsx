@@ -9,7 +9,12 @@ const Footer = () => {
       <footer class="">
         <div class="flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
           <Link href="/">
-            <Image alt="logo" src="/logo.png" height={100} width={160} />
+            <Image
+              alt="logo"
+              src="/Logo Hori Light.svg"
+              height={100}
+              width={160}
+            />
           </Link>
 
           <p class="text-sm  ">

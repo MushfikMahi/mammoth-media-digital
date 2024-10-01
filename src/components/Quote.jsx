@@ -33,7 +33,7 @@ const Quote = () => {
     }
   };
   return (
-    <section className="mb-40" id="#getQuote">
+    <div className="mb-40">
       <h1 className="text-center text-6xl font-bold text-primary my-10">
         Get A Quote
       </h1>
@@ -137,7 +137,7 @@ const Quote = () => {
           width={350}
         />
       </div> */}
-    </section>
+    </div>
   );
 };
 

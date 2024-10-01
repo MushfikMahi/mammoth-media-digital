@@ -12,16 +12,45 @@ import Gallery from "../Gallery";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <YouTube />
-      <Totb />
-      <Gallery />
-      <Service />
-      <Testimony />
-      <Fectors />
-      <Faq />
-      <Journey />
-      <Quote />
+      <section>
+        <Hero />
+      </section>
+
+      <section>
+        <YouTube />
+      </section>
+
+      <section>
+        <Totb />
+      </section>
+
+      <section id="projects">
+        <Gallery />
+      </section>
+
+      <section id="service">
+        <Service />
+      </section>
+
+      <section>
+        <Testimony />
+      </section>
+
+      <section>
+        <Fectors />
+      </section>
+
+      <section id="faq">
+        <Faq />
+      </section>
+
+      <section>
+        <Journey />
+      </section>
+
+      <section id="getQuote">
+        <Quote />
+      </section>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from "react";
 
 const Totb = () => {
   return (
-    <div className="mt-96 mb-40">
+    <div className="mt-80 mb-20">
       <div className="flex gap-5">
         <div className="flex-1 flex items-center justify-center">
           <p className="pl-10 text-xl">
@@ -20,7 +20,7 @@ const Totb = () => {
         </div>
         <div className="flex-1 flex items-center justify-center relative">
           <Image
-            className="absolute -top-72 right-52"
+            className="absolute -top-60 right-52"
             alt="box"
             src="/Think Outside.svg"
             height={400}

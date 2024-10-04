@@ -7,7 +7,7 @@ const YouTube = () => {
         <iframe
           width="887"
           height="499"
-          src="https://www.youtube.com/embed/U91yXvR2WVI"
+          src="https://www.youtube.com/embed/U91yXvR2WVI?rel=0&modestbranding=1"
           title="Mammoth Media Digital Services promo"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

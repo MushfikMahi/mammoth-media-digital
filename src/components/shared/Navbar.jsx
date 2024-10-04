@@ -10,12 +10,12 @@ const Navbar = () => {
       path: "#projects",
     },
     {
-      title: "Faq",
-      path: "#faq",
+      title: "blogs",
+      path: "/blogs",
     },
     {
-      title: " get quote",
-      path: "#getQuote",
+      title: "Faq",
+      path: "#faq",
     },
   ];
   return (
@@ -69,12 +69,12 @@ const Navbar = () => {
           />
         </Link>
         <div className="navbar-end gap-5">
-          <div class="flex justify-center mt-6 lg:mt-0 gap-2">
+          <div class="flex justify-center items-center mt-6 lg:mt-0 gap-4">
             <Link
               target="_blank"
               href={"https://www.facebook.com/mammothmedia.digital"}
             >
-              <CiFacebook className="text-3xl text-secondary" />
+              <Image alt="logo" src="/Facebook.svg" height={20} width={23} />
             </Link>
             <Link
               target="_blank"
@@ -82,10 +82,10 @@ const Navbar = () => {
                 "https://www.instagram.com/mammothmedia.digital?fbclid=IwY2xjawFljE9leHRuA2FlbQIxMAABHYJKLfxFL7Y1TQEX62aUjn8-hK_LmDtqUZVDEuCpPcM8A7xVrD-SS5edIw_aem_cLRTRNd934ATTTVjYKywVA"
               }
             >
-              <CiInstagram className="text-3xl text-secondary" />
+              <Image alt="logo" src="/Instagram.svg" height={20} width={23} />
             </Link>
             <Link target="_blank" href={"https://www.youtube.com/@SpangleD"}>
-              <CiYoutube className="text-3xl text-secondary" />
+              <Image alt="logo" src="/Youtube.svg" height={20} width={30} />
             </Link>
           </div>
         </div>

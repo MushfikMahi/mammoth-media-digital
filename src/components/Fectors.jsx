@@ -14,7 +14,7 @@ function SampleNextArrow(props) {
         ...style,
         display: "flex",
         // background: "red",
-        top: "-10%",
+        top: "-20%",
         right: "1%",
         zIndex: 1,
       }}
@@ -24,7 +24,7 @@ function SampleNextArrow(props) {
     </div>
   );
 }
-
+//Arrow Buttons
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -34,8 +34,8 @@ function SamplePrevArrow(props) {
         ...style,
         display: "flex",
         // background: "green",
-        top: "-10%",
-        left: "90%",
+        top: "-20%",
+        left: "88%",
         zIndex: 1,
       }}
       onClick={onClick}
@@ -56,13 +56,13 @@ const Fectors = () => {
   };
 
   return (
-    <div>
+    <div className="my-10">
       <h1 className="text-6xl font-bold">
         See the factors that drive your <br />
         <span className="text-primary"> growth</span>
       </h1>
       <div className="container">
-        <div className="mt-20">
+        <div className="mt-12">
           <Slider {...settings}>
             {data.map((d) => (
               <div

@@ -8,7 +8,21 @@ const categories = [
   },
   {
     name: "Poster",
-    images: ["/poster1.jpg", "/poster2.jpg", "/poster3.png"],
+    images: [
+      "/poster1.jpg",
+      "/poster2.jpg",
+      "/poster3.png",
+      "/poster4.png",
+      "/poster5.jpg",
+      "/poster6.jpg",
+      "/poster7.jpg",
+      "/poster8.jpg",
+      "/poster9.jpg",
+      "/poster10.jpg",
+      "/poster11.jpg",
+      "/poster12.jpg",
+      "/poster13.jpg",
+    ],
   },
 ];
 const Gallery = () => {
@@ -53,7 +67,7 @@ const Gallery = () => {
 
       {/* Modal for displaying more images */}
       <dialog id="my_modal_4" className="modal">
-        <div className="modal-box bg-black w-11/12 max-w-5xl">
+        <div className="modal-box bg-black max-w-full">
           {selectedCategory && (
             <>
               <h3 className="font-bold text-lg">{selectedCategory.name}</h3>
@@ -62,8 +76,8 @@ const Gallery = () => {
                   <Image
                     key={idx}
                     src={image}
-                    width={200}
-                    height={200}
+                    width={1080}
+                    height={1080}
                     alt={`${selectedCategory.name} image ${idx + 1}`}
                     className="object-cover"
                   />

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { CiFacebook, CiInstagram, CiYoutube } from "react-icons/ci";
 
 const Navbar = () => {
   const navlinks = [
@@ -60,7 +59,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <Link href={"/"} className="btn navbar-center btn-ghost text-xl">
+        <Link href={"/"} className="navbar-center text-xl">
           <Image
             alt="logo"
             src="/Logo Hori Light.svg"

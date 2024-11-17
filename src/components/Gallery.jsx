@@ -27,7 +27,7 @@ const categories = [
     {
     name: "T-shirt Karkhana Website",
     images: [
-      " https://ibb.co.com/tKw3PL3"
+      "https://ibb.co.com/dKdDnmr"
   },
   {
     name: "Warrior's Wardrobe Hoodie Coming Soon Posts",
@@ -92,7 +92,7 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <div className="my-20">
+    <div className="my-30">
       <h1 className="text-center text-6xl font-bold text-primary my-10">
         OUR MASTERPIECES
       </h1>

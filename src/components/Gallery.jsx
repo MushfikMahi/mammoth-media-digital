@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 const categories = [
-    {
+  {
     name: "Mammoth Media Portfolio",
     images: [
       "https://ibb.co.com/Hqs3JbY",
@@ -36,7 +36,7 @@ const categories = [
       "https://ibb.co.com/LYxbXZB",
       "https://ibb.co.com/5WcKCK6",
       "https://ibb.co.com/p1DmZxD],"
- },
+  },
   {
     name: "Warrior's Wardrobe Hoodie Simple Posts",
     images: [
@@ -66,6 +66,7 @@ const categories = [
       "https://ibb.co.com/KmSxn5x"
     ]
   },
+  {
     name: "Mammoth Media Packages",
     images: [
       "https://ibb.co.com/Rp1QSsQ",
@@ -77,7 +78,7 @@ const categories = [
       "https://ibb.co.com/bK3NHw1",
       "https://ibb.co.com/1q84T9z"
     ]
-  },
+  }
 ];
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);

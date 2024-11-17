@@ -1,4 +1,3 @@
-<script async src="https://imgbb.com/upload.js"></script>
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";

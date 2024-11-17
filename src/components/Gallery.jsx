@@ -78,7 +78,7 @@ const categories = [
       "https://ibb.co.com/bK3NHw1",
       "https://ibb.co.com/1q84T9z"
     ]
-  }
+  },
 ];
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);

@@ -5,8 +5,8 @@ const YouTube = () => {
     <div className="flex justify-center items-center">
       <div className="">
         <iframe
-          width="887"
-          height="499"
+          width="1280"
+          height="720"
           src="https://www.youtube.com/embed/N-uH6X9A3sA"
           title="Mammoth Media Digital Services promo"
           frameborder="0"

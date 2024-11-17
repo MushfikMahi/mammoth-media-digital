@@ -2,27 +2,81 @@
 import Image from "next/image";
 import React, { useState } from "react";
 const categories = [
-  {
-    name: "Hoodie",
-    images: ["/Hoodie1.jpg", "/Hoodie2.jpg", "/Hoodie3.jpg"],
+    {
+    name: "Mammoth Media Portfolio",
+    images: [
+      "https://ibb.co.com/Hqs3JbY",
+      "https://ibb.co.com/0hgCkTv",
+      "https://ibb.co.com/LPSntDh",
+      "https://ibb.co.com/3vbyxd0",
+      "https://ibb.co.com/DC277cY",
+      "https://ibb.co.com/8gxw2pB",
+      "https://ibb.co.com/nDg390P",
+      "https://ibb.co.com/vwqh9RK",
+      "https://ibb.co.com/YLw09B9",
+      "https://ibb.co.com/vHmYRBp"
+    ]
   },
   {
-    name: "Poster",
+    name: "Warrior's Wardrobe Hoodie Posts",
     images: [
-      "/poster1.jpg",
-      "/poster2.jpg",
-      "/poster3.png",
-      "/poster4.png",
-      "/poster5.jpg",
-      "/poster6.jpg",
-      "/poster7.jpg",
-      "/poster8.jpg",
-      "/poster9.jpg",
-      "/poster10.jpg",
-      "/poster11.jpg",
-      "/poster12.jpg",
-      "/poster13.jpg",
-    ],
+      "https://ibb.co.com/W5rySxV",
+      "https://ibb.co.com/cxFvWxJ",
+      "https://ibb.co.com/gwYps3T"
+  },
+    {
+    name: "T-shirt Karkhana Website",
+    images: [
+      " https://ibb.co.com/tKw3PL3"
+  },
+  {
+    name: "Warrior's Wardrobe Hoodie Coming Soon Posts",
+    images: [
+      "https://ibb.co.com/W0qvHmN",
+      "https://ibb.co.com/LYxbXZB",
+      "https://ibb.co.com/5WcKCK6",
+      "https://ibb.co.com/p1DmZxD],"
+ },
+  {
+    name: "Warrior's Wardrobe Hoodie Simple Posts",
+    images: [
+      "https://ibb.co.com/BfbJpjX",
+      "https://ibb.co.com/gdFK4x8",
+      "https://ibb.co.com/XbRTtJS",
+      "https://ibb.co.com/4KDx2Lp",
+      "https://ibb.co.com/J52tPgb",
+      "https://ibb.co.com/G0xHQ2j",
+      "https://ibb.co.com/3T6Zk4g",
+      "https://ibb.co.com/pxtLkFj",
+      "https://ibb.co.com/YbVcF8w",
+      "https://ibb.co.com/XCYK19V",
+      "https://ibb.co.com/c12SxmY",
+      "https://ibb.co.com/yyLTH8M"
+  },
+  {
+    name: "Mammoth Media Simple Posts",
+    images: [
+      "https://ibb.co.com/Qrv99BL",
+      "https://ibb.co.com/2k7dDWN",
+      "https://ibb.co.com/GH8t3sn",
+      "https://ibb.co.com/X4wdN2z",
+      "https://ibb.co.com/mCVmb4Z",
+      "https://ibb.co.com/7bYsP5K",
+      "https://ibb.co.com/dBK3ZwY",
+      "https://ibb.co.com/KmSxn5x"
+    ]
+  },
+    name: "Mammoth Media Packages",
+    images: [
+      "https://ibb.co.com/Rp1QSsQ",
+      "https://ibb.co.com/b2rzwcy",
+      "https://ibb.co.com/BCfH5d0",
+      "https://ibb.co.com/1LjYRy5",
+      "https://ibb.co.com/TwZLM2B",
+      "https://ibb.co.com/chNWsY4",
+      "https://ibb.co.com/bK3NHw1",
+      "https://ibb.co.com/1q84T9z"
+    ]
   },
 ];
 const Gallery = () => {

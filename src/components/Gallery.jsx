@@ -102,7 +102,7 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <div className="my-10">
+    <div className="my-20">
       <h1 className="text-center text-6xl font-bold text-primary my-20">
         OUR MASTERPIECES
       </h1>

@@ -102,8 +102,8 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <div className="my-50">
-      <h1 className="text-center text-6xl font-bold text-primary my-30">
+    <div className="my-30">
+      <h1 className="text-center text-6xl font-bold text-primary my-40">
         OUR MASTERPIECES
       </h1>
       {/* Grid of category images */}

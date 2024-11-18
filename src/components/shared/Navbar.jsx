@@ -6,15 +6,15 @@ const Navbar = () => {
   const navlinks = [
     {
       title: "Projects",
-      path: "#projects",
+      path: "https://www.mammothmedia.digital/#projects",
     },
     {
       title: "blogs",
-      path: "/blogs",
+      path: "https://www.mammothmedia.digital/blogs",
     },
     {
       title: "Faq",
-      path: "#faq",
+      path: "https://www.mammothmedia.digital/#faq",
     },
   ];
   return (

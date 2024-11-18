@@ -103,7 +103,7 @@ const Gallery = () => {
   };
   return (
     <div className="my-30">
-      <h1 className="text-center text-6xl font-bold text-primary my-10">
+      <h1 className="text-center text-6xl font-bold text-primary my-20">
         OUR MASTERPIECES
       </h1>
       {/* Grid of category images */}

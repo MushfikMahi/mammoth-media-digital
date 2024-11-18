@@ -21,10 +21,10 @@ const Hero = () => {
           Wildest Dreams with our Expert Team.
         </p>
         <div className="flex gap-3 justify-center">
-          <Link className="pr-btn" href={"#service"}>
+          <Link className="pr-btn" href={"https://www.mammothmedia.digital/#service"}>
             Our Services
           </Link>
-          <Link className="pr-btn" href={"#getQuote"}>
+          <Link className="pr-btn" href={"https://www.mammothmedia.digital/#getQuote"}>
             Get started
           </Link>
         </div>

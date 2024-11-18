@@ -6,9 +6,11 @@ const Faq = () => {
       <div className="w-1/3">
         <h2 className="text-6xl font-bold">Have Questions?</h2>
         <p className="text-xl pt-10 pb-5"> Do you have more questions?</p>
+        <Link href={"https://www.mammothmedia.digital/#getQuote"}>
         <button className="px-4 py-2 mt-2 text-lg rounded text-secondary bg-primary hover:bg-secondary hover:text-primary">
           Contact Us
-        </button>
+        </button>            
+          </Link>
       </div>
       <div className="w-full space-y-4 mx-5">
         {data.map((d) => (

@@ -5,78 +5,87 @@ const categories = [
   {
     name: "Mammoth Media Portfolio",
     images: [
-      "https://ibb.co.com/Hqs3JbY",
-      "https://ibb.co.com/0hgCkTv",
-      "https://ibb.co.com/LPSntDh",
-      "https://ibb.co.com/3vbyxd0",
-      "https://ibb.co.com/DC277cY",
-      "https://ibb.co.com/8gxw2pB",
-      "https://ibb.co.com/nDg390P",
-      "https://ibb.co.com/vwqh9RK",
-      "https://ibb.co.com/YLw09B9",
-      "https://ibb.co.com/vHmYRBp"
+      "https://i.ibb.co.com/f4dMMRf/monthly-pack.jpg",
+      "https://i.ibb.co.com/Gv4XnRY/portfolio-2.jpg",
+      "https://i.ibb.co.com/JsRHfmQ/Restaurant-portfolio.jpg",
+      "https://i.ibb.co.com/TtSdC7R/Agency.jpg",
+      "https://i.ibb.co.com/72wnHPL/burger.jpg",
+      "https://i.ibb.co.com/phMRrWb/Portfolio-website.jpg",
+      "https://i.ibb.co.com/hC73bjV/Product.jpg",
+      "https://i.ibb.co.com/6YspQ7C/Restaurant.jpg",
+      "https://i.ibb.co.com/qC8MHjR/3D.jpg"
     ]
   },
   {
     name: "Warrior's Wardrobe Hoodie Posts",
     images: [
-      "https://ibb.co.com/W5rySxV",
-      "https://ibb.co.com/cxFvWxJ",
-      "https://ibb.co.com/gwYps3T"
+      "https://i.ibb.co.com/t4mLps5/cadet.png",
+      "https://i.ibb.co.com/dG6Myx3/Ex-cadetgg.png",
+      "https://i.ibb.co.com/wdGmYB5/HOODIE-POST-navy.png"]
   },
-    {
+  {
     name: "T-shirt Karkhana Website",
     images: [
-      "https://ibb.co.com/dKdDnmr"
+      "https://i.ibb.co.com/kcRXYmx/Tshirt-Karkhana-Website-Post.png"]
+  },
+  {
+    name: "Social Media Posts For Ayojon Event Management",
+    images: [
+      "https://i.ibb.co.com/x3dqZ2q/0b4040fa-e5aa-458a-ade0-0fee6bdf9300.jpg"]
   },
   {
     name: "Warrior's Wardrobe Hoodie Coming Soon Posts",
     images: [
-      "https://ibb.co.com/W0qvHmN",
-      "https://ibb.co.com/LYxbXZB",
-      "https://ibb.co.com/5WcKCK6",
-      "https://ibb.co.com/p1DmZxD],"
+      "https://i.ibb.co.com/Gn1j9DR/1.png",
+      "https://i.ibb.co.com/cwXnYj9/2.png",
+      "https://i.ibb.co.com/WHZXhFb/3.png",
+      "https://i.ibb.co.com/kxCFXcQ/4.png"]
   },
   {
     name: "Warrior's Wardrobe Hoodie Simple Posts",
     images: [
-      "https://ibb.co.com/BfbJpjX",
-      "https://ibb.co.com/gdFK4x8",
-      "https://ibb.co.com/XbRTtJS",
-      "https://ibb.co.com/4KDx2Lp",
-      "https://ibb.co.com/J52tPgb",
-      "https://ibb.co.com/G0xHQ2j",
-      "https://ibb.co.com/3T6Zk4g",
-      "https://ibb.co.com/pxtLkFj",
-      "https://ibb.co.com/YbVcF8w",
-      "https://ibb.co.com/XCYK19V",
-      "https://ibb.co.com/c12SxmY",
-      "https://ibb.co.com/yyLTH8M"
+      "https://i.ibb.co.com/CvLZxz7/1-Ash.jpg",
+      "https://i.ibb.co.com/vhg4c0C/2-Fawn.jpg",
+      "https://i.ibb.co.com/djP1w5X/3-Burgundy.jpg",
+      "https://i.ibb.co.com/vxzXfXH/4-Aegean.jpg",
+      "https://i.ibb.co.com/BfD1jtD/5-Violet.jpg",
+      "https://i.ibb.co.com/Vt7qk4Y/6-Midnight.jpg",
+      "https://i.ibb.co.com/6NqH7bL/Desert.jpg",
+      "https://i.ibb.co.com/G0C4FhH/ex-cadet.jpg",
+      "https://i.ibb.co.com/LZNcmMv/ex-s.jpg",
+      "https://i.ibb.co.com/7W7csGT/Forest.jpg",
+      "https://i.ibb.co.com/3dxNtrR/Ocean.jpg",
+      "https://i.ibb.co.com/g6T706y/Sky.jpg"]
   },
   {
     name: "Mammoth Media Simple Posts",
     images: [
-      "https://ibb.co.com/Qrv99BL",
-      "https://ibb.co.com/2k7dDWN",
-      "https://ibb.co.com/GH8t3sn",
-      "https://ibb.co.com/X4wdN2z",
-      "https://ibb.co.com/mCVmb4Z",
-      "https://ibb.co.com/7bYsP5K",
-      "https://ibb.co.com/dBK3ZwY",
-      "https://ibb.co.com/KmSxn5x"
+      "https://i.ibb.co.com/8BM65n4/Artboard-1.png",
+      "https://i.ibb.co.com/wWmKKG7/Artboard-2.png",
+      "https://i.ibb.co.com/pjKTZ8P/Artboard-3.png",
+      "https://i.ibb.co.com/brWHT3b/Artboard-4.png",
+      "https://i.ibb.co.com/w0g7tjx/Artboard-5.png",
+      "https://i.ibb.co.com/2kHZ232/Artboard-6.png",
+      "https://i.ibb.co.com/Czv2Dtg/Artboard-7.png",
+      "https://i.ibb.co.com/LPGqbkC/Mammoth-Boost-post.jpg"
     ]
   },
   {
-    name: "Mammoth Media Packages",
+    name: "Mammoth Media Facebook Marketing Packages",
     images: [
-      "https://ibb.co.com/Rp1QSsQ",
-      "https://ibb.co.com/b2rzwcy",
-      "https://ibb.co.com/BCfH5d0",
-      "https://ibb.co.com/1LjYRy5",
-      "https://ibb.co.com/TwZLM2B",
-      "https://ibb.co.com/chNWsY4",
-      "https://ibb.co.com/bK3NHw1",
-      "https://ibb.co.com/1q84T9z"
+      "https://i.ibb.co.com/YytpnHK/Facebook-Marketing-1.jpg",
+      "https://i.ibb.co.com/rGg5tz5/Facebook-Marketing-2.jpg",
+      "https://i.ibb.co.com/JscWw0D/Facebook-Marketing-3.jpg",
+      "https://i.ibb.co.com/mGgrhZw/Facebook-Marketing-4.jpg"
+    ]
+  },
+  {
+    name: "Mammoth Media Website Packages",
+    images: [
+      "https://i.ibb.co.com/PrRQGjZ/Website-1.jpg",
+      "https://i.ibb.co.com/3m0xPRg/Website-2.jpg",
+      "https://i.ibb.co.com/tJhYZjB/Website-3.jpg",
+      "https://i.ibb.co.com/pzJkd3h/Website-4.jpg"
     ]
   },
 ];

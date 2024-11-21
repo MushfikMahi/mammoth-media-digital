@@ -102,12 +102,12 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <div className="my-20">
-      <h1 className="text-center text-6xl font-bold text-primary my-20">
+    <div className="md:my-20 my-10">
+      <h1 className="text-center md:text-6xl text-2xl font-bold text-primary md:my-20 my-8">
         OUR MASTERPIECES
       </h1>
       {/* Grid of category images */}
-      <div className="grid grid-cols-4 gap-4 items-center justify-center">
+      <div className="grid md:grid-cols-4 grid-cols-3 gap-4 items-center justify-center">
         {categories.map((category, idx) => (
           <div
             key={idx}
@@ -122,7 +122,7 @@ const Gallery = () => {
               className="object-cover"
             />
             {/* Category name overlay */}
-            <div className="absolute hover:underline inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-xl font-bold">
+            <div className="absolute hover:underline text-center inset-0 flex items-center bg-black bg-opacity-50 text-white md:text-xl font-bold">
               {category.name}
             </div>
           </div>

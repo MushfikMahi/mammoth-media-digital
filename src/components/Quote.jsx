@@ -34,16 +34,16 @@ const Quote = () => {
     }
   };
   return (
-    <div className="mb-20 pb-60 bg-[url('/girl-with-laptop.png')]  bg-[length:1200px_600px] bg-[center_bottom] bg-no-repeat">
-      <h1 className="text-center text-6xl font-bold text-primary my-10">
+    <div className="md:mb-20 md:pb-60 md:bg-[url('/girl-with-laptop.png')]  md:bg-[length:1200px_600px] md:bg-[center_bottom] md:bg-no-repeat">
+      <h1 className="text-center text-2xl md:text-6xl font-bold text-primary md:my-10 my-3">
         Get A Quote
       </h1>
-      <p className="text-center text-xl">
+      <p className="text-center md:text-xl">
         Leave your info here. We will reach out to you with a custom offer
         tailored to you.
       </p>
-      <div className="flex mt-2">
-        <div className="w-1/3">
+      <div className="md:flex md:mt-2">
+        <div className="md:w-1/3">
           {/* <Image
             alt="quote"
             className="relative "
@@ -55,7 +55,7 @@ const Quote = () => {
         <div className="flex-1">
           <section class="max-w-4xl p-6 mx-auto rounded-md shadow-md ">
             <form onSubmit={handleSubmit}>
-              <div class="grid grid-cols-1 gap-6 mt-4">
+              <div class="grid grid-cols-1 md:gap-6 gap-2 mt-4">
                 <div>
                   <input
                     id="username"
@@ -116,10 +116,10 @@ const Quote = () => {
                 </div>
               </div>
 
-              <div class="flex justify-end mt-6">
+              <div class="flex justify-center md:justify-end md:mt-6 mt-2">
                 <button
                   type="submit"
-                  class="px-4 py-2 flex items-center gap-2 m-2 text-lg  text-secondary bg-primary hover:bg-secondary hover:text-primary transition-colors duration-300 transform rounded-md "
+                  class="md:px-4 w-full md:w-auto justify-center md:py-2 flex items-center gap-2 m-2 text-lg  text-secondary bg-primary hover:bg-secondary hover:text-primary transition-colors duration-300 transform rounded-md "
                 >
                   Send <RiSendPlaneFill />
                 </button>

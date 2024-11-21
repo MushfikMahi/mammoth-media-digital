@@ -22,9 +22,9 @@ const Footer = () => {
           </p>
 
           <div class="flex flex-col text-right -mx-2">
-            <Link href="https://www.mammothmedia.digital/terms_conditions">TERMS AND CONDITIONS</Link>
-            <Link href="https://www.mammothmedia.digital/privacy"> PRIVACY POLICY</Link>
-          </div>
+            <Link className="text-sm" href="https://www.mammothmedia.digital/terms_conditions">TERMS AND CONDITIONS</Link>
+            <Link className="text-sm" href="https://www.mammothmedia.digital/privacy"> PRIVACY POLICY</Link>
+          </div> 
         </div>
       </footer>
     </div>

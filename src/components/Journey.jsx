@@ -3,25 +3,25 @@ import React from "react";
 
 const Journey = () => {
   return (
-    <div className="flex justify-between my-20 relative">
+    <div className="flex flex-col md:flex-row justify-between md:my-20 relative">
       <div className=" text-center">
-        <h3 className="text-4xl italic"> START YOUR </h3>
-        <h1 className="text-primary text-6xl font-bold italic">
+        <h3 className="text-2xl md:text-4xl italic"> START YOUR </h3>
+        <h1 className="text-primary md:text-6xl text-2xl font-bold italic">
           DIGITAL <br /> JOURNEY
         </h1>
-        <h3 className="text-4xl italic">WITH US</h3>
+        <h3 className="text-2xl md:text-4xl italic">WITH US</h3>
       </div>
       <Image
-        className="absolute left-[25%]"
+        className="md:absolute pt-5 md:pt-0 w-96 md:w-0 md:left-[25%]"
         alt="journey"
         src="/journey.png"
         height={200}
         width={600}
       />
-      <div className="text-center flex items-end">
+      <div className="text-center md:flex md:items-end">
         <div>
-          <h3 className="text-4xl">WE HANDLE YOUR </h3>
-          <h1 className="text-5xl font-bold">
+          <h3 className="text-2xl md:text-4xl">WE HANDLE YOUR </h3>
+          <h1 className="text-2xl md:text-5xl font-bold">
             BUSINESS FROM <span className="text-primary">ZERO</span>
           </h1>
         </div>

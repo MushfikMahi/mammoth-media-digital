@@ -15,7 +15,7 @@ const Testimony = () => {
         {testimony.map((testi, idx) => (
           <SwiperSlide key={idx}>
             <div className="flex">
-              <div className="flex-1 p-10">
+              <div className="flex-1 md:p-10 p-3">
                 <div className="flex items-center">
                   <div>
                     <Image
@@ -27,13 +27,13 @@ const Testimony = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="text-2xl">{testi.name}</h3>
-                    <p className="bg-primary px-2 py-1 rounded-xl">
+                    <h3 className="md:text-2xl text-xl">{testi.name}</h3>
+                    <p className="bg-primary md:px-2 text-center py-1 text-sm rounded-xl">
                       {testi.title}
                     </p>
                   </div>
                 </div>
-                <h2 className="text-3xl p-6">{testi.comment}</h2>
+                <h2 className="md:text-3xl text-xl p-6">{testi.comment}</h2>
               </div>
               <div className="flex-1 flex items-center justify-center">
                 <Image

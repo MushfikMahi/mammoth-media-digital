@@ -3,10 +3,12 @@ import React from "react";
 
 const Totb = () => {
   return (
-    <div className="mt-80 mb-20">
+    <div 
+    className="md:mt-80 mt-64 md:mb-20 mb-48"
+    >
       <div className="flex gap-5">
-        <div className="flex-1 flex items-center justify-center">
-          <p className="pl-10 text-xl">
+        <div className="flex-1 flex items-center justify-center relative">
+          <p className="pl-10 md:text-xl text-sm absolute -top-28">
             {" "}
             At Mammoth Media Ltd, we&apos;re not like any other conventional
             digital marketing agency. We&apos;re your partner in achieving
@@ -20,7 +22,7 @@ const Totb = () => {
         </div>
         <div className="flex-1 flex items-center justify-center relative">
           <Image
-            className="absolute -top-60 right-52"
+            className="absolute -top-60 md:right-52 right-16"
             alt="box"
             src="/Think Outside.svg"
             height={400}

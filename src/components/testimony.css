@@ -19,3 +19,14 @@
 .swiper-button-next {
   color: #45714e; /* Change color of arrows */
 }
+
+/* MyComponent.module.css */
+.imageContainer {
+  width: 100%;  /* Adjust width based on the container */
+  max-width: 800px; /* Optional: to limit the size */
+}
+
+.image {
+  width: 100%;  /* Ensure the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+}

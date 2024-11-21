@@ -20,7 +20,7 @@ function SampleNextArrow(props) {
       }}
       onClick={onClick}
     >
-      <IoMdArrowBack className="text-red-500" />
+      
     </div>
   );
 }
@@ -40,8 +40,7 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <IoMdArrowForward />
-    </div>
+          </div>
   );
 }
 const Fectors = () => {
@@ -56,24 +55,24 @@ const Fectors = () => {
   };
 
   return (
-    <div className="my-10">
-      <h1 className="text-6xl font-bold">
+    <div className="md:my-10 my-5">
+      <h1 className="text-2xl md:text-6xl font-bold">
         See the factors that drive your <br />
         <span className="text-primary"> growth</span>
       </h1>
       <div className="container">
-        <div className="mt-12">
+        <div className="md:mt-12 mt-4">
           <Slider {...settings}>
             {data.map((d) => (
               <div
                 key={d.name}
                 className="rounded-xl bg-[#1e2118] border-4 border-primary"
               >
-                <div className="px-5 py-10 text-center space-y-3">
-                  <h3 className="text-2xl uppercase">{d.name}</h3>
+                <div className="md:px-5 px-1 md:py-10 py-5 text-center md:space-y-3 space-y-1">
+                  <h3 className="md:text-2xl text-sm uppercase">{d.name}</h3>
                   <hr className="border-primary" />
-                  <h2 className="text-4xl font-bold pt-8">{d.number}</h2>
-                  <p className="uppercase text-xl">{d.description}</p>
+                  <h2 className="md:text-4xl font-bold md:pt-8 pt-4">{d.number}</h2>
+                  <p className="uppercase md:text-xl text-sm">{d.description}</p>
                 </div>
               </div>
             ))}

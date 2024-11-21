@@ -3,24 +3,24 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="flex my-20">
+    <div className="flex md:my-20 my-10">
       <div className="w-1/3">
-        <h2 className="text-6xl font-bold">Have Questions?</h2>
-        <p className="text-xl pt-10 pb-5"> Do you have more questions?</p>
+        <h2 className="text-2xl md:text-6xl font-bold">Have Questions?</h2>
+        <p className="text-xl md:pt-10 pt-5 md:pb-5 pb-2"> Do you have more questions?</p>
         <Link href={"https://www.mammothmedia.digital/#getQuote"}>
         <button className="px-4 py-2 mt-2 text-lg rounded text-secondary bg-primary hover:bg-secondary hover:text-primary">
           Contact Us
-        </button>            
+        </button>
           </Link>
       </div>
-      <div className="w-full space-y-4 mx-5">
+      <div className="w-full md:space-y-4 space-y-2 md:mx-5">
         {data.map((d) => (
           <div
             key={d}
-            className="collapse collapse-arrow border-4 border-primary rounded-2xl"
+            className="collapse collapse-arrow md:border-4 border-2 border-primary rounded-2xl"
           >
             <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title text-xl font-medium text-secondary">
+            <div className="collapse-title md:text-xl font-medium text-secondary">
               {d.title}
             </div>
             <div className="collapse-content">

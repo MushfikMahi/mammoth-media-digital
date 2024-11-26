@@ -60,13 +60,14 @@ const Navbar = () => {
           </div>
         </div>
         <Link href={"/"} className="navbar-center text-xl">
-          <Image
-            alt="logo"
-            src="/Logo Hori Light.svg"
-            height={140}
-            width={240}
-          />
-        </Link>
+      <Image
+        alt="logo"
+        src="/Logo Hori Light.svg"
+        width={240} // Base width for larger screens
+        height={140} // Base height for larger screens
+        className="w-full max-w-[240px] h-auto"
+      />
+    </Link>
         <div className="navbar-end gap-5">
           <div class="flex justify-center items-center mt-6 lg:mt-0 gap-4">
             <Link

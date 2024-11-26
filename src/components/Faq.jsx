@@ -3,35 +3,45 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="flex md:my-20 my-10">
-      <div className="w-1/3">
-        <h2 className="text-2xl md:text-6xl font-bold">Have Questions?</h2>
-        <p className="text-xl md:pt-10 pt-5 md:pb-5 pb-2"> Do you have more questions?</p>
-        <Link href={"https://www.mammothmedia.digital/#getQuote"}>
-        <button className="px-4 py-2 mt-2 text-lg rounded text-secondary bg-primary hover:bg-secondary hover:text-primary">
-          Contact Us
-        </button>
+    <div className="container mx-auto px-4 md:px-8 py-10 md:py-20">
+      <div className="flex flex-col md:flex-row md:space-x-10">
+        {/* Left Section */}
+        <div className="w-full md:w-1/3 mb-8 md:mb-0">
+          <h2 className="text-3xl md:text-6xl font-bold text-center md:text-left">
+            Have Questions?
+          </h2>
+          <p className="text-xl md:pt-10 pt-5 md:pb-5 pb-2 text-center md:text-left">
+            Do you have more questions?
+          </p>
+          <Link href={"https://www.mammothmedia.digital/#getQuote"}>
+            <button className="px-6 py-3 mt-5 text-lg rounded text-white bg-primary hover:bg-secondary hover:text-primary block mx-auto md:mx-0">
+              Contact Us
+            </button>
           </Link>
-      </div>
-      <div className="w-full md:space-y-4 space-y-2 md:mx-5">
-        {data.map((d) => (
-          <div
-            key={d}
-            className="collapse collapse-arrow md:border-4 border-2 border-primary rounded-2xl"
-          >
-            <input type="radio" name="my-accordion-2" />
-            <div className="collapse-title md:text-xl font-medium text-secondary">
-              {d.title}
+        </div>
+
+        {/* Right Section */}
+        <div className="w-full md:w-2/3 space-y-4">
+          {data.map((d) => (
+            <div
+              key={d.title}
+              className="collapse collapse-arrow md:border-4 border-2 border-primary rounded-2xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div className="collapse-title md:text-xl font-medium text-secondary">
+                {d.title}
+              </div>
+              <div className="collapse-content">
+                <p>{d.ans}</p>
+              </div>
             </div>
-            <div className="collapse-content">
-              <p>{d.ans}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
 };
+
 
 const data = [
   {

@@ -102,12 +102,12 @@ const Gallery = () => {
     document.getElementById("my_modal_4").close();
   };
   return (
-    <div className="md:my-20 my-10">
+    <div className="md:my-20 my-10 md:mt-80">
       <h1 className="text-center md:text-6xl text-2xl font-bold text-primary md:my-20 my-8">
         OUR MASTERPIECES
       </h1>
       {/* Grid of category images */}
-      <div className="grid md:grid-cols-4 grid-cols-3 gap-4 items-center justify-center">
+      <div className="grid md:grid-cols-4 grid-cols-1 w-full gap-4 items-center md:justify-center">
         {categories.map((category, idx) => (
           <div
             key={idx}

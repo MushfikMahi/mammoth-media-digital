@@ -34,7 +34,7 @@ const Quote = () => {
     }
   };
   return (
-    <div className="md:mb-20 md:pb-60 md:bg-[url('/girl-with-laptop.png')]  md:bg-[length:1200px_600px] md:bg-[center_bottom] md:bg-no-repeat">
+    <div className="md:mb-20 container md:pb-60 md:bg-[url('/girl-with-laptop.png')]  md:bg-[length:1200px_600px] md:bg-[center_bottom] md:bg-no-repeat">
       <h1 className="text-center text-2xl md:text-6xl font-bold text-primary md:my-10 my-3">
         Get A Quote
       </h1>
@@ -52,7 +52,7 @@ const Quote = () => {
             width={350}
           /> */}
         </div>
-        <div className="flex-1">
+        <div className="md:flex-1">
           <section class="max-w-4xl p-6 mx-auto rounded-md shadow-md ">
             <form onSubmit={handleSubmit}>
               <div class="grid grid-cols-1 md:gap-6 gap-2 mt-4">
